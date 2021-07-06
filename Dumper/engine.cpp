@@ -311,7 +311,8 @@ std::unordered_map<std::string, decltype(&engines[0])> games = {
     {"DeadByDaylight-Win64-Shipping", &engines[1]},
     {"Brickadia-Win64-Shipping", &engines[2]},
     {"POLYGON-Win64-Shipping", &engines[3]},
-    {"FortniteClient-Win64-Shipping", &engines[4]}
+    {"FortniteClient-Win64-Shipping", &engines[4]},
+    {"FSD-Win64-Shipping", &engines[0]}//Deep rock galactic. IMO FSD stands for F***ing space dwarves -Sam
 };
 
 STATUS EngineInit(std::string game, void* image) {

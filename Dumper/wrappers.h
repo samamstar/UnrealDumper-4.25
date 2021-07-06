@@ -572,6 +572,7 @@ private:
   struct Member {
     std::string Type;
     std::string Name;
+	std::string Flags;
     uint32 Offset = 0;
     uint32 Size = 0;
   };
